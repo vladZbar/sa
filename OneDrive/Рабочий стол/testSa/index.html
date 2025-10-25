@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Системный Анализ - Обучение с постоплатой</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-chart-line"></i>
+                    <span>SystemAnalyst</span>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#about" class="nav-link">О курсе</a>
+                    <a href="#program" class="nav-link">Программа</a>
+                    <a href="#benefits" class="nav-link">Преимущества</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Стань <span class="highlight">SA</span>
+                    с ЗП от <span class="salary">130 000₽</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Обучение с постоплатой • Гарантированное трудоустройство • 
+                    Индивидуальный подход
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://t.me/vladjobb" target="_blank" class="btn btn-primary" id="apply-btn">
+                        <i class="fab fa-telegram"></i>
+                        Связаться
+                    </a>
+                    <button class="btn btn-secondary" id="learn-more-btn">
+                        <i class="fas fa-play"></i>
+                        Узнать больше
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">трудоустраиваются</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">130k</span>
+                        <span class="stat-label">средняя ЗП</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">месяца обучения</span>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Почему системный анализ?</h2>
+                <p>Одна из самых востребованных и высокооплачиваемых профессий в IT</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Зарплата</h3>
+                    <p>От 130 000₽ на старте, до 300 000₽+ с опытом</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Популярность</h3>
+                    <p>Тысячи вакансий по всей России и удаленно</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Карьерный рост</h3>
+                    <p>От аналитика до руководителя продукта, архитектора или лида</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Удаленная работа</h3>
+                    <p>Работайте из любой точки мира</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section class="program" id="program">
+        <div class="container">
+            <div class="section-header">
+                <h2>Программа обучения</h2>
+                <p>3 месяца интенсивной практики</p>
+            </div>
+            <div class="program-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3>Основы системного анализа</h3>
+                        <p>Изучение методологий, инструментов и процессов</p>
+                        <ul>
+                            <li>Введение в системный анализ</li>
+                            <li>Методологии разработки</li>
+                            <li>Инструменты аналитика</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h3>Работа с требованиями</h3>
+                        <p>Сбор, анализ и документирование требований</p>
+                        <ul>
+                            <li>Техники интервьюирования</li>
+                            <li>Анализ стейкхолдеров</li>
+                            <li>Документирование требований</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h3>Моделирование процессов</h3>
+                        <p>Создание диаграмм и схем бизнес-процессов</p>
+                        <ul>
+                            <li>BPMN диаграммы</li>
+                            <li>Use Case диаграммы</li>
+                            <li>Диаграммы последовательности</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h3>Практика</h3>
+                        <p>Индивидуальные задания</p>
+                        <ul>
+                            <li>Анализ существующих систем</li>
+                            <li>Проектирование новых решений</li>
+                            <li>Презентация результатов</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Преимущества нашего обучения</h2>
+                <p>Почему выбирают именно нас</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Постоплата</h3>
+                    <p>Платите только после трудоустройства. Никаких предоплат!</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Менторство</h3>
+                    <p>Персональный ментор на протяжении всего обучения</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Карьерный трек</h3>
+                    <p>Вместе пишем резюме и готовимся к собеседованиям</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Гарантия трудоустройства</h3>
+                    <p>Мы получаем % от вашей зарплаты, поэтому нам выгодно помочь вам найти работу</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Гибкий график</h3>
+                    <p>Обучение в удобное время, совмещайте с работой</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Поддержка</h3>
+                    <p>Помогаем после трудоустройства и даем рекомендации по дальнейшему развитию</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Готовы изменить свою жизнь?</h2>
+                <p>Начните обучение уже сегодня и получите работу мечты через 3 месяца</p>
+                <div class="cta-buttons">
+                    <a href="https://t.me/vladjobb" target="_blank" class="btn btn-primary btn-large" id="cta-apply-btn">
+                        <i class="fab fa-telegram"></i>
+                        Связаться
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-chart-line"></i>
+                    <span>SystemAnalyst</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">О курсе</a>
+                    <a href="#program">Программа</a>
+                    <a href="#benefits">Преимущества</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://t.me/vladjobb" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SystemAnalyst. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="application-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Подать заявку на обучение</h3>
+                <button class="modal-close" id="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="application-form">
+                    <div class="form-group">
+                        <input type="text" id="app-name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="app-email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="app-phone" name="phone" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="app-experience" name="experience" required>
+                            <option value="">Опыт в IT</option>
+                            <option value="none">Нет опыта</option>
+                            <option value="beginner">Начинающий</option>
+                            <option value="intermediate">Средний</option>
+                            <option value="advanced">Продвинутый</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="app-motivation" name="motivation" placeholder="Почему хотите стать системным аналитиком?" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i>
+                        Отправить заявку
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
