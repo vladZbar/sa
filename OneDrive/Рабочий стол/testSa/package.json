@@ -1,8 +1,18 @@
 {
-  "name": "your-project-name",
+  "name": "system-analyst-landing",
   "version": "1.0.0",
+  "description": "Landing page for System Analyst course",
+  "main": "index.html",
   "scripts": {
-    "build": "echo 'No build step needed for static site'",
-    "dev": "echo 'No dev server'"
-  }
+    "build": "echo 'Static site - no build needed'",
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000"
+  },
+  "keywords": [
+    "system analyst",
+    "course",
+    "landing page"
+  ],
+  "author": "Vlad",
+  "license": "MIT"
 }
